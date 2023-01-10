@@ -5,8 +5,8 @@
 }
 
 .App {
-  width: 90vw;
-  height: 60vh;
+  width: 500px;
+  height: 400px;
   background-color: bisque;
   border-radius: 5px;
   margin: 20px auto;
@@ -30,5 +30,9 @@ h1 {
   /* border-color: #28a745; */
 }
 
-
-
+@media (max-width: 600px) {
+  .App {
+    width: 90vw;
+    height: 60vh;
+  }
+}
